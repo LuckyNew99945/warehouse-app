@@ -11,7 +11,7 @@ app.use(cors()); //cors enabled
 app.use(express.json()); //transfer data with json
 
 mongoose
-  .connect('mongodb://localhost', {
+  .connect('mongodb://localhost/warehouseapp', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
